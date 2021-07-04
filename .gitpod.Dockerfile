@@ -2,7 +2,7 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN sudo apt-get update && sudo apt-get install git
+RUN sudo apt-get update
 RUN yarn global add gatsby-cli gatsby-plugin-sharp
 EXPOSE 8000
 
