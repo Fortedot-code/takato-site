@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  gatsby:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gatsby
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/home/node/app
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
