@@ -14,6 +14,6 @@ accordion:
   - description: Music Title
     title: music player
 meta:
-  description: This is a meta description.
+  description: music room
   title: Music
 ---
